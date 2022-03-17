@@ -11251,17 +11251,24 @@ body {
   border-bottom: 3px solid #fff;
 }
 
-footer nav {
-  height: 59px;
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
 }
 
-.movies-index .card-header {
+main {
+  margin: 79px 0;
+}
+
+.movies .card-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
 }
-.movies-index .card-header div {
+.movies .card-header div {
   position: absolute;
   bottom: 100%;
   left: 100%;
@@ -11274,4 +11281,13 @@ footer nav {
   background-color: #31363b;
   border: 1px solid green;
   border-radius: 50%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+footer nav {
+  width: 100vw;
+  height: 59px;
 }
