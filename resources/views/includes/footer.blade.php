@@ -1,3 +1,4 @@
 <footer>
-   FOOTER
+   <nav class="bg-dark">
+   </nav>
 </footer>

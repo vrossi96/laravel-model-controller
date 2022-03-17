@@ -1,5 +1,40 @@
 @import '~bootstrap/scss/bootstrap';
 
+body {
+   background-color: #31363b;
+}
+
 .active {
    border-bottom: 3px solid #fff;
+}
+
+footer {
+   nav {
+      height: 59px;
+   }
+}
+
+// MOVIE INDEX
+.movies-index {
+   .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+
+      div{
+         position: absolute;
+         bottom: 100%;
+         left: 100%;
+         transform: translate(-50%, 50%);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 30px;
+         width: 30px;
+         background-color: #31363b;
+         border: 1px solid green;
+         border-radius: 50%;
+      }
+   }
 }
