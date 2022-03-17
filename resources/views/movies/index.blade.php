@@ -4,6 +4,10 @@
 
 @section('main')
    <div>
-      MAIN
+      <ul>
+         @foreach ($movies as $movie)
+            <li>{{ $movie->title }}</li>
+         @endforeach
+      </ul>
    </div>
 @endsection
