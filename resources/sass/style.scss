@@ -39,8 +39,15 @@ main {
          height: 30px;
          width: 30px;
          background-color: #31363b;
-         border: 1px solid green;
+         border: 1px solid;
          border-radius: 50%;
+
+         &.nice {
+            border-color: green;
+         }
+         &.good {
+            border-color: orange;
+         }
       }
    }
 }

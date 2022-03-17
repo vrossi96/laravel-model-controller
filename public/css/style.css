@@ -11279,8 +11279,14 @@ main {
   height: 30px;
   width: 30px;
   background-color: #31363b;
-  border: 1px solid green;
+  border: 1px solid;
   border-radius: 50%;
+}
+.movies .card-header div.nice {
+  border-color: green;
+}
+.movies .card-header div.good {
+  border-color: orange;
 }
 
 footer {
